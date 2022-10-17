@@ -30,6 +30,7 @@ a{
 }
 
 #welcome-section .image-div {
+    margin-top:30px;
     border-radius: 50%;
     width: 70%;
     overflow: hidden;
