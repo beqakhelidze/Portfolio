@@ -16,6 +16,7 @@ a{
 
 .navbar-nav li {
     margin-right: 20px;
+    text-align: center;
 }
 
 .navbar-nav a {
@@ -115,44 +116,13 @@ a{
     justify-content: space-around;
     align-items: center;
     font-size: 55px;
-    margin: 30px 110px;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin:0 auto;
+}
+
+.contacts a{
+    margin:20px;
 }
 
 
-
-
-@media (max-width:593px) {
-    #navbar {
-        height: 103px;
-    }
-}
-
-@media (max-width:1195px) {
-    #projects-grid {
-        display: grid;
-        grid-template-columns: 50% 50%;
-        padding: 40px 50px;
-    }
-}
-
-@media (max-width:800px) {
-    #projects-grid {
-        display: grid;
-        grid-template-columns: 100%;
-        padding: 40px 160px;
-    }
-}
-
-@media (max-width:550px) {
-    #projects-grid {
-        display: grid;
-        grid-template-columns: 100%;
-        padding: 40px 50px;
-    }
-}
-
-@media (max-width:750px) {
-    #contact-forms {
-        margin: 30px 10px;
-    }
-}
