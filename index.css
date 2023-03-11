@@ -1,129 +1,141 @@
-@import 'https://fonts.googleapis.com/css?family=Lato:400,700';
+@import "https://fonts.googleapis.com/css?family=Lato:400,700";
 @import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
 
 body {
-    padding: 0;
-    margin: 0;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-size: contain;
-    background-repeat: no-repeat;
+  padding: 0;
+  margin: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
-a{
-    cursor: pointer;
-    text-decoration: none !important;
+a {
+  cursor: pointer;
+  text-decoration: none !important;
 }
 
 .navbar-nav li {
-    margin-right: 20px;
-    text-align: center;
+  margin-right: 20px;
+  text-align: center;
 }
 
 .navbar-nav a {
-    font-size: 20px;
-    padding: 5px;
+  font-size: 20px;
+  padding: 5px;
 }
 
 .navbar-nav .active {
-    background-color: #eeeeee;
-    border-radius: 5px;
+  background-color: #eeeeee;
+  border-radius: 5px;
 }
 
 #welcome-section .image-div {
-    margin-top:30px;
-    border-radius: 50%;
-    width: 70%;
-    overflow: hidden;
+  margin-top: 30px;
+  border-radius: 50%;
+  width: 70%;
+  overflow: hidden;
 }
 
 #welcome-section .image-div img {
-    width: 100%;
+  width: 100%;
 }
 
 #welcome-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 0px;
-    margin-top: 40px;
-    min-height: 100vh;
-    background-image: linear-gradient(115deg,
-            rgba(255, 255, 255, 0.7),
-            rgba(136, 136, 206, 0.5)), url("./public/background.jpg");
-    background-size:cover;
-    background-repeat: no-repeat;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  margin-top: 40px;
+  min-height: 100vh;
+  background-image: linear-gradient(
+      115deg,
+      rgba(255, 255, 255, 0.7),
+      rgba(136, 136, 206, 0.5)
+    ),
+    url("./public/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
 }
 
-
 #projects {
-    margin: 0px;
-    padding: 70px 20px;
-    text-align: center;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
-    background-image: linear-gradient(115deg,
-            rgba(255, 255, 255, 0.7),
-            rgba(136, 136, 206, 0.5));
+  margin: 0px;
+  padding: 70px 20px;
+  text-align: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  background-image: linear-gradient(
+    115deg,
+    rgba(255, 255, 255, 0.7),
+    rgba(136, 136, 206, 0.5)
+  );
 }
 
 .section-title {
-    padding: 7px;
-    border-bottom: 2px solid rgba(0, 0, 0, 0.3);
-    margin: 0 auto;
-    margin-bottom: 60px;
-    display: inline-block;
-    font-size: 3rem;
+  padding: 7px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+  margin: 0 auto;
+  margin-bottom: 60px;
+  display: inline-block;
+  font-size: 3rem;
 }
 
-.mt-50{
-    margin-top: 50px;
+.mt-50 {
+  margin-top: 50px;
 }
 
-.card img{
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1) ;
+.card img {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
-
 
 .code {
-    color: rgb(49, 45, 45);
+  color: rgb(49, 45, 45);
 }
 
 #project:hover .code {
-    transition: color 0.8s ease;
-    color: orange;
-    opacity: 80%;
+  transition: color 0.8s ease;
+  color: orange;
+  opacity: 80%;
 }
 
-
 #contacts {
-    text-align: center;
-    padding-top: 90px;
-    background-image: linear-gradient(115deg,
-            rgba(255, 255, 255, 0.7),
-            rgba(136, 136, 206, 0.5));
-    padding-bottom: 130px;
+  text-align: center;
+  padding-top: 90px;
+  background-image: linear-gradient(
+    115deg,
+    rgba(255, 255, 255, 0.7),
+    rgba(136, 136, 206, 0.5)
+  );
+  padding-bottom: 130px;
 }
 
 #contacts p {
-    font-size: 30px;
-    margin-top: 0px;
-    font-family: 'Courier New', Courier, monospace;
-    color: white;
+  font-size: 30px;
+  margin-top: 0px;
+  font-family: "Courier New", Courier, monospace;
+  color: white;
 }
 
 .contacts {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    font-size: 55px;
-    flex-wrap: wrap;
-    max-width: 1000px;
-    margin:0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 55px;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
-.contacts a{
-    margin:20px;
+.contacts a {
+  margin: 20px;
 }
 
+.navbar-collapse{
+  margin-top: 10px;
+}
 
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-collapse {
+    margin-top: 0px;
+  }
+}

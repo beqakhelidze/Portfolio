@@ -19,5 +19,13 @@ const loadScript = () => {
     document.getElementById("phone_number").addEventListener("click", copyNumber)
 }
 
+document.addEventListener("click", function (event) {
+  var navbar = document.querySelector(".navbar-collapse");
+  var button = document.querySelector(".navbar-toggler");
+  if (!navbar.contains(event.target) || button.contains(event.target)) {
+    navbar.classList.remove("show");
+  }
+});
+
 
 document.addEventListener("DOMContentLoaded", loadScript);
